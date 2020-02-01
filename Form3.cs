@@ -15,7 +15,6 @@ namespace ClickerC
         public Form3(string data)
         {
             InitializeComponent();
-            //BackgroundImage = Image.FromFile(@"C:\Users\Леонид\Desktop\kartinka.jpg");
             this.data = data;
             label1.Text = data;
             Convert.ToInt32(label1.Text);
